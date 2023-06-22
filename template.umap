@@ -1,0 +1,111 @@
+{
+    "type": "umap",
+    "uri": "https://umap.openstreetmap.fr/it/map/mappa-senza-nome_928835#13/44.0530/10.3160",
+    "properties": {
+        "easing": false,
+        "embedControl": true,
+        "fullscreenControl": true,
+        "searchControl": true,
+        "datalayersControl": true,
+        "zoomControl": true,
+        "permanentCreditBackground": true,
+        "slideshow": {
+
+        },
+        "captionMenus": true,
+        "captionBar": false,
+        "limitBounds": {
+
+        },
+        "overlay": {
+
+        },
+        "tilelayer": {
+            "tms": false,
+            "name": "OSM OpenTopoMap",
+            "maxZoom": 16,
+            "minZoom": 1,
+            "attribution": "Kartendaten: © [[https://openstreetmap.org/copyright|OpenStreetMap]]-Mitwirkende, [[http://viewfinderpanoramas.org/|SRTM]] | Kartendarstellung: © [[https://opentopomap.org/|OpenTopoMap]] ([[https://creativecommons.org/licenses/by-sa/3.0/|CC-BY-SA]])",
+            "url_template": "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+        },
+        "licence": "",
+        "description": "",
+        "name": "Mappa senza nome",
+        "displayPopupFooter": false,
+        "miniMap": false,
+        "moreControl": true,
+        "scaleControl": true,
+        "scrollWheelZoom": true,
+        "zoom": 13
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            10.10,
+            44.14
+        ]
+    },
+    "layers": [
+        {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            10.105419,
+                            44.140619
+                        ],
+                        "type": "Point"
+                    },
+                    "properties": {
+                        "_umap_options": {
+                            "popupTemplate": "Default"
+                        },
+                        "01_name": "Tecchia di Tenerano",
+                        "02_description": "Grotta con ampio ingresso sviluppo orizzontale digradante all'interno, muretti a secco all'ingresso, laghetto stagionale all'ingresso, stalattiti attive, ampio pianoro utilizzato a bivacco. Sul versante SW sul torrente Bardinello. ",
+                        "03_date": "06-13-2023",
+                        "04_time": "10:05:16 AM",
+                        "05_Dimensioni": "",
+                        "06_Orientamento": 224,
+                        "07_Sito": "21",
+                        "08_Provincia": "Massa Carrara ",
+                        "09_Comune": "Fivizzano",
+                        "10_Toponimo": "Tenerano",
+                        "11_Microtoponimo": "Tecchia di Tenerano",
+                        "12_Altitudine": 554,
+                        "13_StradaAccesso": "sentiero CAI 46",
+                        "14_AltraLocalizzazione": "",
+                        "15_Tipologia": "frequentazione antropica",
+                        "16_Definizione": "grotta",
+                        "17_CronologiaIniziale": "Protostoria",
+                        "18_CronologiaFinale": "Età attuale",
+                        "19_RepertiCeramici": true,
+                        "20_RepertiGeologici": false,
+                        "21_RepertiBiologici": false,
+                        "22_AltriManufatti": "Ceramica invetriata, ceramica di Montelupo",
+                        "23_Sicurezza": "accesso in sicurezza",
+                        "24_Accessibilita": "Facile",
+                        "25_CoperturaReteMobile": "Assente",
+                        "26_CoperturaGPS": "Completa",
+                        "27_Foto": "1UR4GgedVHbGAtcINk0UDmZnlnqeXGFpy",
+                        "28_Link": "13-giugno-2023-tecchia-di-tenerano",
+                        "29_Bibliografia": "gio01a"
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "_umap_options": {
+                "displayOnLoad": true,
+                "browsable": true,
+                "name": "Layer 1",
+                "id": 2836041,
+                "remoteData": {
+
+                },
+                "popupShape": "Panel",
+                "popupTemplate": "Table",
+                "popupContentTemplate": "# SITO {07_Sito}\n{{https://drive.google.com/uc?id={27_Foto}|300}}\n## {01_name} ( [[https://sites.google.com/view/prin-underlandscape/home-page/attivit%C3%A0-sul-campo/{28_Link}|link]])\n{02_description}\n---\n**Tipologia** {15_Tipologia}\n**Definizione**: {16_Definizione}\n**Cronologia iniziale**: {17_CronologiaIniziale}\n**Cronologia finale**: {18_CronologiaFinale}\n**Reperti ceramici**: {19_RepertiCeramici}\n**Reperti geologici**: {20_RepertiGeologici}\n**Reperti biologici**: {21_RepertiBiologici}\n**Altri manufatti**: {22_AltriManufatti}\n---\n**Dimensioni**: {05_Dimensioni}\n**Altitudine**: {12_Altitudine}\n**Orientamento**: {06_Orientamento}\n**Sicurezza**: {23_Sicurezza}\n**Accessibilità**: {24_Accessibilita}\n**Copertura rete mobile**: {25_CoperturaReteMobile}\n**Copertura GPS**: {26_CoperturaGPS}\n---\n**Provincia**: {08_Provincia}\n**Comune**: {09_Comune}\n**Toponimo**: {10_Toponimo}\n**Microtoponimo**: {11_Microtoponimo}\n**Strada di accesso**: {13_StradaAccesso}\n**Altra localizzazione**: {14_AltraLocalizzazione}\n---\n**Prima visita**: {03_date} {04_time}\n**Bibliografia**: {29_Bibliografia}"
+            }
+        }
+    ]
+}
