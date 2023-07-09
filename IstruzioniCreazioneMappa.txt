@@ -1,0 +1,20 @@
+Copiare tutte le mappe e le foto dal sito gaiaGPS in una directory locale (non cambiare il nome alle foto)
+Abilitare l'accesso alle foto a chiunque abbia il link
+
+Creazione mappa su UMap
+Denominarla AAAAMMGG-Sito
+Caricare il geojson di gaiaGPS sul layer di default (sostituisci)
+Creare un nuovo layer "percorso" AUTO
+Selezionare dal layer gaia il percorso e spostarlo sul layer percorso
+Salvare
+Editare la tabella del livello gaia ed eliminare tutti i campi meno elevation,latitude,longitude,time_created,title
+Salvare e disabilitare la modifica
+Caricare il layer template (nuovo layer)
+Rinominare il nuovo layer POI
+Spostare tutti i punti dal layer gaiaGPS al layer POI
+Impostare per tutti "stile contenuto" "predefinito"
+Aprire la visualizzazione a tabela e, con l'aiuto del nome del POI in gaia GPS associare la foto
+Di ciascuna foto prendere il link di condivisione e cancellare tutta la URL meno il codice intermedio
+Cancellare il punto fantoccio del template vicino Vagli.
+ATTENZIONE: con quest'ultima operazione si cancellano tutte le colonne della tabella che non sono definite in almeno un POI
+Al termine è possibile cancellare le colonne nella tabella del livello POI ereditate da gaiaGPS
